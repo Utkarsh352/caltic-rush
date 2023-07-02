@@ -1,0 +1,33 @@
+/* body {
+    background-color: #000000;
+    color: #d13e3e;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#timer, #question, #result, #streak {
+    margin-bottom: 10px;
+}
+
+#submit {
+    padding: 10px 20px;
+    background-color: #444;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #666;
+} 
+ */

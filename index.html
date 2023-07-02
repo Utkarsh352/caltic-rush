@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Caltic rush</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+
+    <style>  
+    *{
+        margin: 0;
+   padding: 0; 
+    } 
+body {
+    /* background-color: #000000; */
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/12.jpg); 
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    background-attachment: fixed;
+
+} 
+/* 
+.logo{ 
+    height: 40px;
+   margin: -20px; 
+   margin-left: -350%; 
+   border-radius: 50%;
+}  */
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+
+
+
+h1 { 
+    flex-basis: 31%; 
+    background: rgb(154,168,177);
+    background: rgb(0,0,0);
+background: linear-gradient(100deg, rgba(0,0,0,1) 0%, rgba(116,108,108,1) 50%, rgba(43,26,1,1) 100%);
+    border-radius: 20px;
+   margin-bottom:5%; 
+   padding: 20px 12px; 
+   box-sizing: border-box;
+    font-size: 50px;
+}
+
+#timer {
+    margin-bottom: 10px; 
+    font-size: 40px;
+    border-radius: 10px;
+    /* margin-top: 0; */
+    padding: 20px 10px ;
+    flex:1; 
+    text-align:right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    background: rgb(0, 0, 0);
+border-radius: 10px;
+margin-bottom:5%; 
+padding: 10px 12px; 
+box-sizing: border-box;
+    
+}
+#question, #result, #streak {
+    margin-bottom: 10px; 
+    font-size: 40px;
+} 
+
+#submit {
+    padding: 10px 20px;
+    background-color: #444;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #666;
+} 
+/* .link{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background: rgb(0, 0, 0);
+ padding: 10px 12px; 
+ box-sizing: border-box;
+} 
+.link:hover{
+    color: aquamarine;
+} */
+
+
+
+    </style>
+</head>
+<body> 
+    
+    <div class="container">  
+        <!-- <div class="logo"> 
+            <a href="https://taplink.cc/wunsch"><img src="images/123.png" width="100px"></a>
+            </div> -->
+        <h1>Caltic rush</h1>
+        <div id="timer">Time: <span id="time">0</span>s</div>
+        <div id="question">Question: <span id="calculation">3 + 4</span></div>
+        <input type="number" id="answer" placeholder="Enter your answer" />
+        <button id="submit">Submit</button>
+        <div id="result"></div>
+        <div id="streak">Highest Streak: <span id="highestStreak">0</span></div>
+    
+        <!-- <a href="https://taplink.cc/wunsch" class="link">Created By Wunsch</a> -->
+   
+    </div> 
+
+    
+    <script src="script.js"></script> 
+</body>
+</html>
